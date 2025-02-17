@@ -20,5 +20,6 @@ namespace API.Controllers
             if (activity == null) return NotFound();
             return activity;
         }
+
     }
 }

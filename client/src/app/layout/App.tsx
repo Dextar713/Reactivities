@@ -6,7 +6,6 @@ import HomePage from "../../features/home/HomePage";
 function App() {
     const location = useLocation();
 
-
     return (
         <Box sx={{ bgcolor: '#eeeeee', minHeight: '100vh' }}>
             <CssBaseline></CssBaseline>
@@ -19,8 +18,8 @@ function App() {
 
                     </Container>
                 </>
-            ) }
-            
+            )}
+
         </Box>
     )
 }
